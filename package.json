@@ -1,0 +1,33 @@
+{
+  "name": "launchpadanimations",
+  "version": "1.1.4",
+  "description": "Create animations for the Launchpad MK2",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "novation-launchpadmk2": "^1.0.5",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theboys619/launchpadanimation.git"
+  },
+  "keywords": [
+    "Theboys619",
+    "Launchpad",
+    "novation",
+    "midi",
+    "animation"
+  ],
+  "author": "Theboys619",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theboys619/launchpadanimation/issues"
+  },
+  "homepage": "https://github.com/Theboys619/launchpadanimation#readme"
+}

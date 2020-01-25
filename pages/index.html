@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Launchpad Andymations</title>
+    <style>
+      .container1 {
+        display: inline-block;
+      }
+      .canvases {
+        display: inherit;
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <input type="number" step="1" name="counter1" id="color" placeholder="Velocity Value (0-63)" value="0"><br>
+    <input type="text" name="animationname" id="animationname" placeholder="Animation Name"><br>
+    <input type="text" id="buttontrigger" placeholder="Launchpad Button (11-111)"><br>
+    <div id="chosencolor" class="canvases"></div><br><br><br>
+    <div id="colors" class="container1">
+      <div id="canvas" class="canvases"></div>
+      <div id="velocities" class="canvases"></div>
+    </div>
+    <br>
+    <input type="number" step="1" value="1" name="keyframe" id="keyframe" placeholder="KeyFrame"><br>
+    <input type="button" value="Export and Save" onclick="exportanimation()">
+    <script src="../js/script.js" charset="utf-8"></script>
+  </body>
+</html>
