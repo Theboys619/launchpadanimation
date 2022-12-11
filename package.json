@@ -4,7 +4,7 @@
   "description": "Create animations for the Launchpad MK2",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "multer": "^1.4.2",
     "novation-launchpadmk2": "^1.0.5",
     "socket.io": "^2.3.0"
